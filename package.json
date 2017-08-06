@@ -1,6 +1,6 @@
 {
   "name": "raureif-glimmer",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -9,10 +9,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "raureif-addon"
+  ],
   "author": "",
   "license": "MIT",
-  "devDependencies": {
-    "raureif": "^1.6.0"
+  "peedDependencies": {
+    "raureif-typescript": ">1.0.0",
+    "raureif": ">=1.8.0"
+  },
+  "dependencies": {
+    "@glimmer/application-pipeline": "^0.8.3",
+    "@glimmer/compiler": "^0.26.2",
+    "@glimmer/resolution-map-builder": "^0.5.1",
+    "broccoli-file-creator": "^1.1.1",
+    "broccoli-funnel": "^1.2.0",
+    "broccoli-merge-trees": "^2.0.0",
+    "ember-build-utilities": "^0.4.0"
   }
 }
