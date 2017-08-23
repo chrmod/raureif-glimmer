@@ -1,6 +1,6 @@
 {
   "name": "raureif-glimmer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -12,13 +12,17 @@
   "keywords": [
     "raureif-addon"
   ],
-  "author": "",
+  "files": [
+    "dist/*"
+  ],
+  "author": "Krzysztof Jan Modras <chrmod@chrmod.net>",
   "license": "MIT",
   "peedDependencies": {
     "raureif-typescript": ">1.0.0",
-    "raureif": ">=1.8.0"
+    "raureif": ">2.0.0"
   },
   "dependencies": {
+    "raureif": "2.0.2",
     "@glimmer/application-pipeline": "^0.8.3",
     "@glimmer/compiler": "^0.26.2",
     "@glimmer/resolution-map-builder": "^0.5.1",
